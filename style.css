@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lemon&display=swap');
+
+.back {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://cdna.artstation.com/p/assets/images/images/032/123/348/large/jerome-comentale-hogwarts.jpg?1605547034)center/cover no-repeat;
+}
+
+.back span{
+    font-family: 'Amatic SC', cursive;
+}
+
+
+ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    
+}
+
+.menu {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: .5;
+}
+
+span {
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 7px;
+    color: aliceblue;
+}
+
+nav {
+    background: rgb(51, 13, 13);
+    
+}
+
+a:hover {
+opacity: 1;
+font-size: 30px;
+transition: 1s;
+}
+
+li:hover {
+    background-color: rgb(97, 84, 84);
+}
+
+p {
+    margin: 7px;
+    font-size: 25px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:3px;
+}
+.pic{
+
+    width:30%;
+    height:250px;
+}
+img{
+    width:100%;
+    height:100%;
+}
+
+.blok h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 3px;
+    animation:www 4s forwards ;
+    transform: translateX(-100%);
+    opacity:0;
+    filter:blur(5px);
+    position: relative;
+
+}
+ @keyframes www{
+100%{
+    transform: translateX(0);
+    opacity:1;
+    filter:blur(0px);
+}
+
+
+ }  
+
+p{
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 30px;
+    animation:yyy 4s forwards;
+    transform:translateX(100%);
+    opacity:0;
+    filter: blur(5px);
+    position:relative;
+    
+}
+@keyframes yyy{
+    100%{
+
+        transform: translateX(0);
+        opacity:1;
+        filter: blur(0px);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0%;
+    z-index: 9;
+}
+
+.blok {
+    padding-top: 300px;
+}
+
+.container {
+
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(156, 142, 103),rgb(78, 65, 44));
+}
+
+.aside {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(139, 114, 109);
+    border-radius: 5px;
+    border: solid 5px rgb(102, 82, 82);
+    position: absolute;
+    z-index:8;
+    right:0;
+    top:275px;
+    font-size: 20px;
+}
+
+.info{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infonew{
+    width:50%;
+    padding:10px;
+   font-size: 23px;
+}
+.photo{
+    border-radius: 15px;
+    width: 250px;
+    height: 360px;
+    overflow: hidden;
+    box-shadow: 10px -10px 8px black;
+    border: solid 3px black;
+}
+
+.nap:hover {
+    color: rgb(83, 82, 82);
+    font-size: inherit;
+}
+
+.nap {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: rgb(70, 58, 42);
+    margin-top: 15px;
+}
+
+.soc {
+    height: 65px;
+    width: 65px;
+    margin-top: 5px;
+    margin-right: 9px;
+}
+
+.av {
+   font-size: 23px;
+}
